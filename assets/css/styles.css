@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?hb9gbf');
+  src:  url('fonts/icomoon.eot?hb9gbf#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?hb9gbf') format('truetype'),
+    url('fonts/icomoon.woff?hb9gbf') format('woff'),
+    url('fonts/icomoon.svg?hb9gbf#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*title*/
+
+.icons .icon-heart{
+	font-size: 2em;
+	color: #00c200;
+}
+/*nav*/
+#main-nav{
+	padding: 1.65em;
+    background: red;
+    display: inline-block;
+    /* text-align: center; */
+    list-style-type: none;
+    display: none;
+}
+
+#main-nav ul{
+	list-style-type: none;
+	padding-left: 0;
+}
+
+#main-nav li{
+	display: inline-block;
+}
+
+/*body*/
+
+/*footer*/
+
