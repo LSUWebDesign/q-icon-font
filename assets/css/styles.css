@@ -11,6 +11,15 @@
 
 /*title*/
 
+.fa{
+  color: #00c200;
+  font-size: 100px;
+}
+.fa-balance-scale{
+  color: #666;
+  font-size: 200px;
+}
+
 .icons .icon-heart{
 	font-size: 2em;
 	color: #00c200;
