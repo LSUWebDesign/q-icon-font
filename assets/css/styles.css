@@ -1,13 +1,29 @@
-// @font-face {
-//   font-family: 'icomoon';
-//   src:  url('fonts/icomoon.eot?hb9gbf');
-//   src:  url('fonts/icomoon.eot?hb9gbf#iefix') format('embedded-opentype'),
-//     url('fonts/icomoon.ttf?hb9gbf') format('truetype'),
-//     url('fonts/icomoon.woff?hb9gbf') format('woff'),
-//     url('fonts/icomoon.svg?hb9gbf#icomoon') format('svg');
-//   font-weight: normal;
-//   font-style: normal;
-// }
+@font-face {
+  font-family: 'Privateer';
+  src: url('../fonts/privateerregular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/privateerregular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/privateerregular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/privateerregular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/privateerregular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+
+h1,h2,h3,h4,h5,h6{
+  font-family: Privateer, serif;
+  letter-spacing: 0.08em;
+}
+
+// FIND A BODYCOPY FONT FROM GOOGLE FONT
+p{
+  font-family: 'Raleway', serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.raleway-normal{
+ font-family: 'Raleway', serif;
+ font-weight: 400;
+ font-style: normal; 
+}
 
 /*title*/
 
